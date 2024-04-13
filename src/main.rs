@@ -6,4 +6,3 @@ fn main() {
     let text = io::read_to_string(stdin).expect("Can not read stdin");
     set_clipboard(formats::Unicode, text.trim_end()).expect("Can not set on clipboard");
 }
-
